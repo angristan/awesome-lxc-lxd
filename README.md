@@ -26,4 +26,5 @@ A curated list of awesome LXC and LXD tools, libraries and related projects.
 - [lxdock](https://github.com/lxdock/lxdock): Build and orchestrate your development environments with LXD - a.k.a. Vagrant is Too Heavy™
 - [mi-lxc](https://github.com/flesueur/mi-lxc): Mini-Internet using LXC for practical works
 - [lxdui](https://github.com/AdaptiveScale/lxdui): LXDUI is a web UI for the native Linux container technology LXD/LXC
+- [kubernetes-lxd](https://github.com/corneliusweig/kubernetes-lxd): A step-by-step guide to get kubernetes running inside an LXC container
 
