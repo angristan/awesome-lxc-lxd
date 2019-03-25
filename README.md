@@ -18,6 +18,7 @@ A curated list of awesome LXC and LXD tools, libraries and related projects.
 - [ruby-lxc](https://github.com/lxc/ruby-lxc): Ruby bindings for liblxc
 - [python2-lxc](https://github.com/lxc/python2-lxc): Python 2.7 binding for liblxc (similar to the better supported python3-lxc)
 - [python3-lxc](https://github.com/lxc/python3-lxc): Python 3.x binding for liblxc
+- [php-lxd](https://github.com/turtle0x1/php-lxd) a php binding library for lxd
 
 ## Tools
 
@@ -31,4 +32,4 @@ A curated list of awesome LXC and LXD tools, libraries and related projects.
 - [mi-lxc](https://github.com/flesueur/mi-lxc): Mini-Internet using LXC for practical works
 - [lxdui](https://github.com/AdaptiveScale/lxdui): LXDUI is a web UI for the native Linux container technology LXD/LXC
 - [kubernetes-lxd](https://github.com/corneliusweig/kubernetes-lxd): A step-by-step guide to get kubernetes running inside an LXC container
-
+- [LxdMosaic](https://github.com/turtle0x1/LxdMosaic): Web gui for multiple lxd servers
