@@ -8,6 +8,10 @@ A curated list of awesome LXC and LXD tools, libraries and related projects.
 - [lxd](https://github.com/lxc/lxd): Daemon based on liblxc offering a REST API to manage containers
 - [lxcfs](https://github.com/lxc/lxcfs): FUSE filesystem for LXC
 
+## Tutorials
+
+- [Stéphane Graber's LXD 2.0 blog post series](https://stgraber.org/2016/03/11/lxd-2-0-blog-post-series-012/)
+
 ## Libraries
 
 - [go-lxc](https://github.com/lxc/go-lxc): Go bindings for liblxc
