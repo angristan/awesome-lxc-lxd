@@ -35,3 +35,4 @@ A curated list of awesome LXC and LXD tools, libraries and related projects.
 - [kubernetes-lxd](https://github.com/corneliusweig/kubernetes-lxd): A step-by-step guide to get kubernetes running inside an LXC container
 - [LxdMosaic](https://github.com/turtle0x1/LxdMosaic): Web gui for multiple lxd servers
 - [lxe](https://github.com/automaticserver/lxe): Kubernetes CRI shim for LXD
+- [bravetools](https://github.com/bravetools/bravetools): An end-to-end System Container management platform
