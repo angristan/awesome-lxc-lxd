@@ -28,7 +28,6 @@ A curated list of awesome LXC and LXD tools, libraries and related projects.
 ## Related projects
 
 - [vagrant-lxc](https://github.com/fgrehm/vagrant-lxc): LXC provider for Vagrant
-- [LXC-Web-Panel](https://github.com/lxc-webpanel/LXC-Web-Panel): LXC Web Panel repository
 - [lxdock](https://github.com/lxdock/lxdock): Build and orchestrate your development environments with LXD - a.k.a. Vagrant is Too Heavy™
 - [mi-lxc](https://github.com/flesueur/mi-lxc): Mini-Internet using LXC for practical works
 - [lxdui](https://github.com/AdaptiveScale/lxdui): LXDUI is a web UI for the native Linux container technology LXD/LXC
