@@ -24,6 +24,7 @@ A curated list of awesome LXC and LXD tools, libraries and related projects.
 ## Tools
 
 - [distrobuilder](https://github.com/lxc/distrobuilder): System container image builder for LXC and LXD
+- [lxd-github-actions](https://github.com/stgraber/lxd-github-actions): Scripts to run Github Actions runners inside of LXD
 
 ## Related projects
 
