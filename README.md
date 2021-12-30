@@ -26,12 +26,19 @@ A curated list of awesome LXC and LXD tools, libraries and related projects.
 - [distrobuilder](https://github.com/lxc/distrobuilder): System container image builder for LXC and LXD
 - [lxd-github-actions](https://github.com/stgraber/lxd-github-actions): Scripts to run Github Actions runners inside of LXD
 
+## UI
+
+- [lxdui](https://github.com/AdaptiveScale/lxdui): LXDUI is a web UI for the native Linux container technology LXD/LXC
+- [LxdMosaic](https://github.com/turtle0x1/LxdMosaic): PHP-based UI for LXD
+- [lxd-manager-vue-dashboard](https://github.com/Miso-K/lxdmanager-vue-dashboard): LXDManager Vue-based Dashboard
+- [lxd-api-gateway](https://github.com/Miso-K/lxd-api-gateway): Python-based LXDManager backend for LXDManager Dashboard
+- [lxd-webui](https://github.com/dobin/lxd-webgui): AngularJS-based UI for LXD
+
 ## Related projects
 
 - [vagrant-lxc](https://github.com/fgrehm/vagrant-lxc): LXC provider for Vagrant
 - [lxdock](https://github.com/lxdock/lxdock): Build and orchestrate your development environments with LXD - a.k.a. Vagrant is Too Heavy™
 - [mi-lxc](https://github.com/flesueur/mi-lxc): Mini-Internet using LXC for practical works
-- [lxdui](https://github.com/AdaptiveScale/lxdui): LXDUI is a web UI for the native Linux container technology LXD/LXC
 - [kubernetes-lxd](https://github.com/corneliusweig/kubernetes-lxd): A step-by-step guide to get kubernetes running inside an LXC container
 - [LxdMosaic](https://github.com/turtle0x1/LxdMosaic): Web gui for multiple lxd servers
 - [lxe](https://github.com/automaticserver/lxe): Kubernetes CRI shim for LXD
