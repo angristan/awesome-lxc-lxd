@@ -109,6 +109,8 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 - [incus-deploy](https://github.com/lxc/incus-deploy) — Ansible, Terraform, and scripts for deploying Incus clusters with Ceph and OVN.
 - [lxd-csi-driver](https://github.com/canonical/lxd-csi-driver) — Exposes LXD storage to Kubernetes workloads.
 - [incus-apply](https://github.com/abiosoft/incus-apply) — Declarative configuration management for Incus resources.
+- [Proxmox-GitOps](https://github.com/stevius10/Proxmox-GitOps) — GitOps and infrastructure-as-code framework for Proxmox LXC containers.
+- [proxmox-lxc-autoscale](https://github.com/fabriziosalmi/proxmox-lxc-autoscale) — Dynamically adjusts CPU and memory allocations for Proxmox LXC containers.
 
 ## Tools and development workflows
 
@@ -121,6 +123,9 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 - [incus-spawn](https://github.com/Sanne/incus-spawn) — CLI and TUI for disposable Incus development sandboxes.
 - [lincubate](https://github.com/popey/lincubate) — Runs development agents in sandboxed LXD containers.
 - [vibebin](https://github.com/jgbrwn/vibebin) — Creates Incus-backed coding and hosting environments on self-hosted servers.
+- [crabbox](https://github.com/openclaw/crabbox) — Creates Incus-backed SSH leases for remote development and test workloads.
+- [containarium](https://github.com/FootprintAI/Containarium) — Provides SSH-native isolated environments with an LXC backend, eBPF egress controls, and GPU support.
+- [edi](https://github.com/lueschem/edi) — Builds reproducible embedded OS artifacts and LXD-based digital twins.
 - [bravetools](https://github.com/bravetools/bravetools) — Builds, deploys, and releases environments with system containers.
 - [garm](https://github.com/cloudbase/garm) and [garm-provider-incus](https://github.com/cloudbase/garm-provider-incus) — Autoscale ephemeral GitHub Actions and Gitea runners on Incus.
 - [ssh2incus](https://github.com/mobydeck/ssh2incus) — SSH gateway for accessing Incus instances.
@@ -134,6 +139,7 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 - [kapsule](https://github.com/KDE/kapsule) — Incus container management with KDE Plasma integration.
 - [ararat-web](https://github.com/hyecompany/ararat-web) — Incus-native web control plane currently in public beta.
 - [oneclickvirt](https://github.com/oneclickvirt/oneclickvirt) — Multi-hypervisor management panel with Incus and LXD support.
+- [xpipe](https://github.com/xpipe-io/xpipe) — Desktop interface for discovering and accessing local or remote LXD and Incus instances.
 
 ## Backup, migration, and recovery
 
