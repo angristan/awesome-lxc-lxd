@@ -1,45 +1,38 @@
-# Awesome LXC
+# Awesome LXC, LXD and Incus
 
-A curated list of awesome LXC and LXD tools, libraries and related projects.
+A curated list of useful LXC, LXD, and Incus tools, libraries, integrations, and learning resources.
+
+LXC is the low-level system container runtime. Incus and LXD build on LXC to manage system containers and virtual machines through a cloud-like API and command-line interface.
 
 ## Official projects
 
-- [lxc](https://github.com/lxc/lxc): Linux Containers
-- [lxd](https://github.com/lxc/lxd): Daemon based on liblxc offering a REST API to manage containers
-- [lxcfs](https://github.com/lxc/lxcfs): FUSE filesystem for LXC
+- [LXC](https://github.com/lxc/lxc) — Linux system container runtime.
+- [LXCFS](https://github.com/lxc/lxcfs) — FUSE filesystem providing container-aware system information.
+- [Incus](https://github.com/lxc/incus) — Community-led system container and virtual machine manager.
+- [LXD](https://github.com/canonical/lxd) — Canonical's system container and virtual machine manager.
 
 ## Interesting reads
 
-- [Comparing LXD vs. LXC](https://discuss.linuxcontainers.org/t/comparing-lxd-vs-lxc/24)
-- [Stéphane Graber's LXD 2.0 blog post series](https://stgraber.org/2016/03/11/lxd-2-0-blog-post-series-012/)
+- [Comparing LXD vs. LXC](https://discuss.linuxcontainers.org/t/comparing-lxd-vs-lxc/24) — Explains the different roles of the LXC runtime and LXD manager.
+- [LXD 2.0 blog post series](https://stgraber.org/2016/03/11/lxd-2-0-blog-post-series-012/) — In-depth introduction to LXD's core concepts by Stéphane Graber.
 
 ## Libraries
 
-- [go-lxc](https://github.com/lxc/go-lxc): Go bindings for liblxc
-- [ruby-lxc](https://github.com/lxc/ruby-lxc): Ruby bindings for liblxc
-- [python2-lxc](https://github.com/lxc/python2-lxc): Python 2.7 binding for liblxc (similar to the better supported python3-lxc)
-- [python3-lxc](https://github.com/lxc/python3-lxc): Python 3.x binding for liblxc
-- [php-lxd](https://github.com/turtle0x1/php-lxd) a php binding library for lxd
+- [go-lxc](https://github.com/lxc/go-lxc) — Go bindings for liblxc.
+- [ruby-lxc](https://github.com/lxc/ruby-lxc) — Ruby bindings for liblxc.
+- [python3-lxc](https://github.com/lxc/python3-lxc) — Python 3 bindings for liblxc.
+- [php-lxd](https://github.com/turtle0x1/php-lxd) — PHP client library for the LXD REST API.
 
 ## Tools
 
-- [distrobuilder](https://github.com/lxc/distrobuilder): System container image builder for LXC and LXD
-- [lxd-github-actions](https://github.com/stgraber/lxd-github-actions): Scripts to run Github Actions runners inside of LXD
-- [lxd-compose](https://mottainaici.github.io/lxd-compose-docs/docs/getting-started/): docker-compose but for LXD
+- [distrobuilder](https://github.com/lxc/distrobuilder) — Builds LXC and Incus images from declarative YAML definitions.
+- [lxd-compose](https://github.com/MottainaiCI/lxd-compose) — Defines and runs groups of LXD containers.
 
-## UI
+## User interfaces
 
-- [lxdui](https://github.com/AdaptiveScale/lxdui): LXDUI is a web UI for the native Linux container technology LXD/LXC
-- [LxdMosaic](https://github.com/turtle0x1/LxdMosaic): PHP-based UI for multiple LXD service
-- [lxd-manager-vue-dashboard](https://github.com/Miso-K/lxdmanager-vue-dashboard): LXDManager Vue-based Dashboard
-- [lxd-api-gateway](https://github.com/Miso-K/lxd-api-gateway): Python-based LXDManager backend for LXDManager Dashboard
-- [lxd-webui](https://github.com/dobin/lxd-webgui): AngularJS-based UI for LXD
+- [LxdMosaic](https://github.com/turtle0x1/LxdMosaic) — Web interface for managing multiple LXD and Incus servers.
 
 ## Related projects
 
-- [vagrant-lxc](https://github.com/fgrehm/vagrant-lxc): LXC provider for Vagrant
-- [lxdock](https://github.com/lxdock/lxdock): Build and orchestrate your development environments with LXD - a.k.a. Vagrant is Too Heavy™
-- [mi-lxc](https://github.com/flesueur/mi-lxc): Mini-Internet using LXC for practical works
-- [kubernetes-lxd](https://github.com/corneliusweig/kubernetes-lxd): A step-by-step guide to get kubernetes running inside an LXC container
-- [lxe](https://github.com/automaticserver/lxe): Kubernetes CRI shim for LXD
-- [bravetools](https://github.com/bravetools/bravetools): An end-to-end System Container management platform
+- [bravetools](https://github.com/bravetools/bravetools) — Builds, deploys, and releases environments with system containers.
+- [Mini-Internet](https://github.com/flesueur/mi-lxc) — Builds virtual Internet-like networks with LXC for teaching and research.
