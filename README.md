@@ -101,8 +101,13 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 
 - [incus-compose](https://github.com/lxc/incus-compose) — Runs Compose-spec workloads natively on Incus.
 - [lxd-compose](https://github.com/MottainaiCI/lxd-compose) — Defines and runs groups of LXD or Incus instances.
+- [colima](https://github.com/abiosoft/colima) — Runs Docker, containerd, Kubernetes, or Incus on macOS and Linux with minimal setup.
 - [incant](https://github.com/lnussbaum/incant) — Defines reproducible Incus development environments in YAML.
 - [blincus](https://github.com/ublue-os/blincus) — Creates rapid Incus-based development environments.
+- [code-on-incus](https://github.com/mensfeld/code-on-incus) — Runs isolated development agents with root, systemd, Docker, and network threat controls.
+- [incus-spawn](https://github.com/Sanne/incus-spawn) — CLI and TUI for disposable Incus development sandboxes.
+- [lincubate](https://github.com/popey/lincubate) — Runs development agents in sandboxed LXD containers.
+- [vibebin](https://github.com/jgbrwn/vibebin) — Creates Incus-backed coding and hosting environments on self-hosted servers.
 - [bravetools](https://github.com/bravetools/bravetools) — Builds, deploys, and releases environments with system containers.
 - [garm](https://github.com/cloudbase/garm) and [garm-provider-incus](https://github.com/cloudbase/garm-provider-incus) — Autoscale ephemeral GitHub Actions and Gitea runners on Incus.
 - [ssh2incus](https://github.com/mobydeck/ssh2incus) — SSH gateway for accessing Incus instances.
