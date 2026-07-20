@@ -7,6 +7,7 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 ## Contents
 
 - [Official projects](#official-projects)
+- [Packages and host platforms](#packages-and-host-platforms)
 - [Documentation and getting started](#documentation-and-getting-started)
 - [Images and image building](#images-and-image-building)
 - [Libraries and SDKs](#libraries-and-sdks)
@@ -28,6 +29,14 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 - [incus-os](https://github.com/lxc/incus-os) — Immutable operating system dedicated to running Incus.
 - [lxd](https://github.com/canonical/lxd) — Canonical's system container and virtual machine manager.
 - [microcloud](https://github.com/canonical/microcloud) — Automated private cloud built from LXD, Ceph, and OVN.
+
+## Packages and host platforms
+
+- [zabbly/incus](https://github.com/zabbly/incus) — Signed Incus packages for supported Debian and Ubuntu releases.
+- [copr-lxc4](https://github.com/ganto/copr-lxc4) — Fedora COPR packages for LXC, LXCFS, LXD, and Incus.
+- [pve-container](https://git.proxmox.com/?p=pve-container.git) — Proxmox VE container manager and runtime built on LXC.
+- [vpsadminos](https://github.com/vpsfreecz/vpsadminos) — NixOS and ZFS-based host operating system for unprivileged LXC containers.
+- [incus-docker](https://github.com/cmspam/incus-docker) — Runs Incus and its web UI inside privileged Docker or Podman containers.
 
 ## Documentation and getting started
 
@@ -65,6 +74,8 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 - [incus-windows](https://github.com/antifob/incus-windows) — Toolset for creating Windows images for Incus virtual machines.
 - [polar](https://github.com/upmaru/polar) — Simple Streams image server for LXD and Incus.
 - [simplestreams-builder](https://github.com/MottainaiCI/simplestreams-builder) — Builds LXC, LXD, and Incus-compatible Simple Streams trees.
+- [lxd-openwrt](https://github.com/mikma/lxd-openwrt) — Builds OpenWrt root filesystems as LXD system container images.
+- [talos-incus](https://github.com/windsorcli/talos-incus) — Publishes signed Talos Linux VM images through an Incus Simple Streams remote.
 
 ## Libraries and SDKs
 
@@ -72,6 +83,7 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 
 - [go-lxc](https://github.com/lxc/go-lxc) — Go bindings for `liblxc`.
 - [python3-lxc](https://github.com/lxc/python3-lxc) — Python 3 bindings for `liblxc`.
+- [lxc-rs](https://github.com/sanpii/lxc-rs) — Rust bindings for the native `liblxc` API.
 
 ### Incus
 
@@ -90,6 +102,7 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 - [terraform-provider-lxd](https://github.com/terraform-lxd/terraform-provider-lxd) — Manages LXD resources with Terraform or OpenTofu.
 - [community.general.incus](https://docs.ansible.com/ansible/latest/collections/community/general/incus_connection.html) — Runs Ansible tasks directly inside Incus instances.
 - [community.general.lxd](https://docs.ansible.com/ansible/latest/collections/community/general/lxd_connection.html) — Runs Ansible tasks directly inside LXD instances.
+- [packer-plugin-lxc](https://github.com/hashicorp/packer-plugin-lxc) — Builds native LXC container images with Packer.
 - [packer-plugin-incus](https://github.com/bketelsen/packer-plugin-incus) — Builds reusable Incus images with Packer provisioners.
 - [packer-plugin-lxd](https://github.com/hashicorp/packer-plugin-lxd) — Builds reusable LXD images with Packer provisioners.
 - [cluster-api-provider-incus](https://github.com/lxc/cluster-api-provider-incus) — Provisions Kubernetes clusters on Incus, LXD, and MicroCloud.
