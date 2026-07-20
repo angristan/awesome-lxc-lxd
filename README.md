@@ -22,12 +22,12 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 ## Official projects
 
 - [Linux Containers](https://linuxcontainers.org/) — Home of the LXC, LXCFS, Incus, and distrobuilder projects.
-- [LXC](https://github.com/lxc/lxc) — Linux system container runtime, command-line tools, and `liblxc` library.
-- [LXCFS](https://github.com/lxc/lxcfs) — FUSE filesystem providing container-aware system information.
-- [Incus](https://github.com/lxc/incus) — Community-led system container and virtual machine manager.
-- [Incus OS](https://github.com/lxc/incus-os) — Immutable operating system dedicated to running Incus.
-- [LXD](https://github.com/canonical/lxd) — Canonical's system container and virtual machine manager.
-- [MicroCloud](https://github.com/canonical/microcloud) — Automated private cloud built from LXD, Ceph, and OVN.
+- [lxc](https://github.com/lxc/lxc) — Linux system container runtime, command-line tools, and `liblxc` library.
+- [lxcfs](https://github.com/lxc/lxcfs) — FUSE filesystem providing container-aware system information.
+- [incus](https://github.com/lxc/incus) — Community-led system container and virtual machine manager.
+- [incus-os](https://github.com/lxc/incus-os) — Immutable operating system dedicated to running Incus.
+- [lxd](https://github.com/canonical/lxd) — Canonical's system container and virtual machine manager.
+- [microcloud](https://github.com/canonical/microcloud) — Automated private cloud built from LXD, Ceph, and OVN.
 
 ## Documentation and getting started
 
@@ -60,11 +60,11 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 - [Ubuntu Cloud Images](https://cloud-images.ubuntu.com/releases/) — Official stable Ubuntu images used by the `ubuntu:` remote.
 - [distrobuilder](https://github.com/lxc/distrobuilder) — Builds LXC and Incus images from declarative YAML definitions.
 - [distrobuilder documentation](https://linuxcontainers.org/distrobuilder/docs/latest/) — Tutorials and reference for custom LXC and Incus images.
-- [LXD Image Builder](https://github.com/canonical/lxd-imagebuilder) — Builds LXD container and VM images and Simple Streams catalogs.
-- [LXD Image Builder documentation](https://canonical-lxd-imagebuilder.readthedocs-hosted.com/) — Tutorials and reference for `lxd-imagebuilder`.
-- [Incus Windows](https://github.com/antifob/incus-windows) — Toolset for creating Windows images for Incus virtual machines.
-- [Polar](https://github.com/upmaru/polar) — Simple Streams image server for LXD and Incus.
-- [Simple Streams Builder](https://github.com/MottainaiCI/simplestreams-builder) — Builds LXC, LXD, and Incus-compatible Simple Streams trees.
+- [lxd-imagebuilder](https://github.com/canonical/lxd-imagebuilder) — Builds LXD container and VM images and Simple Streams catalogs.
+- [lxd-imagebuilder documentation](https://canonical-lxd-imagebuilder.readthedocs-hosted.com/) — Tutorials and reference for `lxd-imagebuilder`.
+- [incus-windows](https://github.com/antifob/incus-windows) — Toolset for creating Windows images for Incus virtual machines.
+- [polar](https://github.com/upmaru/polar) — Simple Streams image server for LXD and Incus.
+- [simplestreams-builder](https://github.com/MottainaiCI/simplestreams-builder) — Builds LXC, LXD, and Incus-compatible Simple Streams trees.
 
 ## Libraries and SDKs
 
@@ -81,48 +81,48 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 ### LXD
 
 - [LXD Go client](https://pkg.go.dev/github.com/canonical/lxd/client) — Official Go SDK shipped with LXD.
-- [PyLXD](https://github.com/canonical/pylxd) — Official Python client for the LXD REST API.
+- [pylxd](https://github.com/canonical/pylxd) — Official Python client for the LXD REST API.
 - [php-lxd](https://github.com/turtle0x1/php-lxd) — PHP client library for the LXD REST API.
 
 ## Infrastructure as code and orchestration
 
-- [Terraform/OpenTofu Provider for Incus](https://github.com/lxc/terraform-provider-incus) — Manages Incus instances, projects, profiles, networks, and storage.
-- [Terraform Provider for LXD](https://github.com/terraform-lxd/terraform-provider-lxd) — Manages LXD resources with Terraform or OpenTofu.
-- [Incus connection for Ansible](https://docs.ansible.com/ansible/latest/collections/community/general/incus_connection.html) — Runs Ansible tasks directly inside Incus instances.
-- [LXD connection for Ansible](https://docs.ansible.com/ansible/latest/collections/community/general/lxd_connection.html) — Runs Ansible tasks directly inside LXD instances.
-- [Packer Plugin for Incus](https://github.com/bketelsen/packer-plugin-incus) — Builds reusable Incus images with Packer provisioners.
-- [Packer Plugin for LXD](https://github.com/hashicorp/packer-plugin-lxd) — Builds reusable LXD images with Packer provisioners.
-- [Cluster API Provider for Incus](https://github.com/lxc/cluster-api-provider-incus) — Provisions Kubernetes clusters on Incus, LXD, and MicroCloud.
-- [Incus Deploy](https://github.com/lxc/incus-deploy) — Ansible, Terraform, and scripts for deploying Incus clusters with Ceph and OVN.
-- [LXD CSI Driver](https://github.com/canonical/lxd-csi-driver) — Exposes LXD storage to Kubernetes workloads.
-- [Incus Apply](https://github.com/abiosoft/incus-apply) — Declarative configuration management for Incus resources.
+- [terraform-provider-incus](https://github.com/lxc/terraform-provider-incus) — Manages Incus instances, projects, profiles, networks, and storage.
+- [terraform-provider-lxd](https://github.com/terraform-lxd/terraform-provider-lxd) — Manages LXD resources with Terraform or OpenTofu.
+- [community.general.incus](https://docs.ansible.com/ansible/latest/collections/community/general/incus_connection.html) — Runs Ansible tasks directly inside Incus instances.
+- [community.general.lxd](https://docs.ansible.com/ansible/latest/collections/community/general/lxd_connection.html) — Runs Ansible tasks directly inside LXD instances.
+- [packer-plugin-incus](https://github.com/bketelsen/packer-plugin-incus) — Builds reusable Incus images with Packer provisioners.
+- [packer-plugin-lxd](https://github.com/hashicorp/packer-plugin-lxd) — Builds reusable LXD images with Packer provisioners.
+- [cluster-api-provider-incus](https://github.com/lxc/cluster-api-provider-incus) — Provisions Kubernetes clusters on Incus, LXD, and MicroCloud.
+- [incus-deploy](https://github.com/lxc/incus-deploy) — Ansible, Terraform, and scripts for deploying Incus clusters with Ceph and OVN.
+- [lxd-csi-driver](https://github.com/canonical/lxd-csi-driver) — Exposes LXD storage to Kubernetes workloads.
+- [incus-apply](https://github.com/abiosoft/incus-apply) — Declarative configuration management for Incus resources.
 
 ## Tools and development workflows
 
-- [Incus Compose](https://github.com/lxc/incus-compose) — Runs Compose-spec workloads natively on Incus.
-- [LXD Compose](https://github.com/MottainaiCI/lxd-compose) — Defines and runs groups of LXD or Incus instances.
-- [Incant](https://github.com/lnussbaum/incant) — Defines reproducible Incus development environments in YAML.
-- [BluIncus](https://github.com/ublue-os/blincus) — Creates rapid Incus-based development environments.
+- [incus-compose](https://github.com/lxc/incus-compose) — Runs Compose-spec workloads natively on Incus.
+- [lxd-compose](https://github.com/MottainaiCI/lxd-compose) — Defines and runs groups of LXD or Incus instances.
+- [incant](https://github.com/lnussbaum/incant) — Defines reproducible Incus development environments in YAML.
+- [blincus](https://github.com/ublue-os/blincus) — Creates rapid Incus-based development environments.
 - [bravetools](https://github.com/bravetools/bravetools) — Builds, deploys, and releases environments with system containers.
-- [GARM](https://github.com/cloudbase/garm) and its [Incus provider](https://github.com/cloudbase/garm-provider-incus) — Autoscale ephemeral GitHub Actions and Gitea runners on Incus.
-- [SSH2Incus](https://github.com/mobydeck/ssh2incus) — SSH gateway for accessing Incus instances.
+- [garm](https://github.com/cloudbase/garm) and [garm-provider-incus](https://github.com/cloudbase/garm-provider-incus) — Autoscale ephemeral GitHub Actions and Gitea runners on Incus.
+- [ssh2incus](https://github.com/mobydeck/ssh2incus) — SSH gateway for accessing Incus instances.
 
 ## User interfaces
 
-- [LXD UI](https://github.com/canonical/lxd-ui) — Canonical's official browser interface, included with LXD.
-- [Incus UI Canonical](https://github.com/zabbly/incus-ui-canonical) — Frequently rebased Incus-compatible fork of Canonical's LXD UI.
-- [LXConsole](https://github.com/PenningLabs/lxconsole) — Multi-server web console supporting LXD and Incus.
+- [lxd-ui](https://github.com/canonical/lxd-ui) — Canonical's official browser interface, included with LXD.
+- [incus-ui-canonical](https://github.com/zabbly/incus-ui-canonical) — Frequently rebased Incus-compatible fork of Canonical's LXD UI.
+- [lxconsole](https://github.com/PenningLabs/lxconsole) — Multi-server web console supporting LXD and Incus.
 - [LxdMosaic](https://github.com/turtle0x1/LxdMosaic) — Web interface for managing multiple LXD and Incus servers.
-- [Kapsule](https://github.com/KDE/kapsule) — Incus container management with KDE Plasma integration.
-- [Ararat](https://github.com/hyecompany/ararat-web) — Incus-native web control plane currently in public beta.
-- [OneClickVirt](https://github.com/oneclickvirt/oneclickvirt) — Multi-hypervisor management panel with Incus and LXD support.
+- [kapsule](https://github.com/KDE/kapsule) — Incus container management with KDE Plasma integration.
+- [ararat-web](https://github.com/hyecompany/ararat-web) — Incus-native web control plane currently in public beta.
+- [oneclickvirt](https://github.com/oneclickvirt/oneclickvirt) — Multi-hypervisor management panel with Incus and LXD support.
 
 ## Backup, migration, and recovery
 
 - [Back up an Incus server](https://linuxcontainers.org/incus/docs/main/backup/) — Official snapshot, export, recovery, and host-level backup guidance.
 - [Back up an LXD server](https://documentation.ubuntu.com/lxd/latest/backup/) — Official instance, volume, and server backup guidance.
-- [Incus Backup](https://github.com/ScottiBYTE/incusbackup) — Web-based scheduled backup and restore across multiple Incus remotes.
-- [IncusAutobackup](https://github.com/rbnhln/incusAutobackup) — Replicates Incus instances and volumes between source and target hosts.
+- [incusbackup](https://github.com/ScottiBYTE/incusbackup) — Web-based scheduled backup and restore across multiple Incus remotes.
+- [incusAutobackup](https://github.com/rbnhln/incusAutobackup) — Replicates Incus instances and volumes between source and target hosts.
 - [Incus migration overview](https://linuxcontainers.org/incus/docs/main/migration/) — Server-to-server, LXC, physical machine, and virtual machine migration guides.
 - [Import machines into Incus](https://linuxcontainers.org/incus/docs/main/howto/import_machines_to_instances/) — Imports filesystems and raw, QCOW2, OVA, or VMDK images with `incus-migrate`.
 - [Migrate LXC containers to Incus](https://linuxcontainers.org/incus/docs/main/howto/migrate_from_lxc/) — Converts local LXC containers with `lxc-to-incus`.
@@ -156,7 +156,7 @@ LXC is the low-level system container runtime. Incus and LXD build on LXC to man
 
 ## Related projects
 
-- [Mini-Internet](https://github.com/flesueur/mi-lxc) — Builds virtual Internet-like networks with LXC for teaching and research.
+- [mi-lxc](https://github.com/flesueur/mi-lxc) — Builds virtual Internet-like networks with LXC for teaching and research.
 
 ## Historical reads
 
